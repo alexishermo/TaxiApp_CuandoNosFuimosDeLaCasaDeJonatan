@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Taxi Driver 1.0 Beta
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="background-color:gold">
+    <h2 align="center">Iniciar sesion como:</h2><br><br><br><br><br>
+   
+        <button ion-button full (click)="loginTaxista()">Taxista</button><br><br>
+        
+        <button ion-button full (click)="loginUsuario()">Usuario</button><br><br>
+        
+        <button ion-button full (click)="crearViaje(1,21.4822729,-104.8678145)">Crear</button>   
+        
+        <button ion-button full (click)="updateViaje(2,1)">Update</button>
+
+        <button ion-button full (click)="deleteViaje(2)">Delete</button>
+
+        <button ion-button full (click)="showViaje(3)">Show Viaje</button>
+        
+
+</ion-content>
